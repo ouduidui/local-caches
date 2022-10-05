@@ -1,7 +1,7 @@
 {
   "name": "local-caches",
   "version": "0.0.0",
-  "description": "",
+  "description": "Used for saving the caches of the CLI, which is convenient for the next execution.",
   "keywords": [],
   "license": "MIT",
   "repository": {
