@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import rimraf from 'rimraf'
 import { expect, it } from 'vitest'
-import { clearCaches, getCache, getCaches, removeCache, setCache } from 'dist/index'
+import { clearCaches, getCache, getCaches, removeCache, setCache } from '~/index'
 
 it('should create file when set caches', () => {
   if (fs.existsSync(path.resolve(process.cwd(), '.cache')))
