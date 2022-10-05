@@ -1,24 +1,24 @@
 {
-  "name": "local-cache",
+  "name": "local-caches",
   "version": "0.0.0",
   "description": "",
   "keywords": [],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ouduidui/local-cache.git"
+    "url": "git+https://github.com/ouduidui/local-caches.git"
   },
   "author": "Dewey Ou <oushihao97@gmail.com>",
   "type": "module",
-   "files": [
+  "files": [
     "dist"
   ],
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "homepage": "https://github.com/ouduidui/local-cache#readme",
+  "homepage": "https://github.com/ouduidui/local-caches#readme",
   "bugs": {
-    "url": "https://github.com/ouduidui/local-cache/issues"
+    "url": "https://github.com/ouduidui/local-caches/issues"
   },
   "scripts": {
     "start": "nodemon ./src/index.ts",
